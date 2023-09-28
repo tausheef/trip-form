@@ -1,0 +1,71 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inconsolata&family=Roboto&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+    
+}
+
+.container
+{
+
+ margin: auto;
+ max-width: 80%;
+ padding: 34px;
+
+}
+.container h1 , p{
+    text-align: center;
+}
+
+
+input , textarea{
+
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 80%;
+    margin: 7px;
+    padding: 7px;
+    font-size: 25px;
+}
+
+form{
+    font-family: 'Roboto', sans-serif;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    color: aliceblue;
+    background-color: palevioletred;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+    background-size: cover;
+
+}
+
+.frm_sbmt{
+    color: green;
+ font-weight: 500;
+ font-family: 'Dela Gothic One', cursive;
+ 
+    
+
+    }
